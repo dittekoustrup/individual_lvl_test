@@ -1,1 +1,75 @@
-body{background: #ff1493;}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+h1{
+    font-size: 30px;
+    margin: 2px;
+}
+
+h2{
+    font-size: 20px;
+    margin: 2px;
+}
+
+p{
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.light_green{
+    color: #C6F3EA;
+}
+
+.dark_green{
+    color: #20816D;
+}
+
+.portfolio{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: pink;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2eb398;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.content_box{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-color: #209D84;
+    border-style: solid;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.content_text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+/* I made the shape a circle, because I don't know how to make it a hexigon*/
+.profile_img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 100%;
+}
