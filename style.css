@@ -67,6 +67,7 @@ p{
     display: flex;
     flex-direction: column;
     margin-left: 20px;
+    position: relative;
 }
 
 /* I made the shape a circle, because I don't know how to make it a hexigon*/
@@ -79,6 +80,77 @@ p{
     border-radius: 100%;
 }
 
+.btn_container{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin: 0;
+}
+
 .SoMe_btn{
-    
+    border: 0px;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 0%;
+    margin: 0;
+}
+/* Some of the SVG's are not the right logo, and I know that it's not efficient to use SVG's in case a blind person
+goes through the website with a website reader*/
+.fb{
+    background-color: #C6F3EA;
+    fill: #33AB92;
+}
+
+.fb:hover{
+    background-color: #3b5998;
+    fill: #fff;
+}
+
+.tw{
+    background-color: #6CCCC0;
+    fill: #33AB92;
+}
+
+.tw:hover{
+    background-color: #179CF0;
+    fill: #fff;
+}
+
+.gplus{
+    background-color: #7DD1C4;
+    fill: #3AAD95;
+}
+
+.gplus:hover{
+    background-color: #FE4F3B;
+    fill: #fff;
+}
+
+.pin{
+    background-color: #C6F3EA;
+    fill: #33AB92;
+}
+
+.pin:hover{
+    background-color: #DE0322;
+    fill: #fff;
+}
+
+.in{
+    background-color: #C6F3EA;
+    fill: #33AB92;
+}
+
+.in:hover{
+    background-color: #3b5998;
+    fill: #fff;
+}
+.drib{
+    background-color: #7DD1C4;
+    fill: #3AAD95;
+}
+
+.drib:hover{
+    background-color: #E74C89;
+    fill: #B2215A;
 }
