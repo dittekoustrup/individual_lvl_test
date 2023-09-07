@@ -11,7 +11,14 @@ h1{
 }
 
 h2{
-    font-size: 20px;
+    font-size: 30px;
+    margin: 2px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+}
+
+h3{
+    font-size: 18px;
     margin: 2px;
     font-family: 'Maven Pro', sans-serif;
     font-weight: 400;
@@ -29,6 +36,14 @@ p{
 
 .dark_green{
     color: #20816D;
+}
+
+.light_grey{
+    color: #DFDFDF;
+}
+
+.dark_grey{
+    color: #A7A7A7;
 }
 
 .portfolio{
@@ -61,6 +76,8 @@ p{
     border-style: solid;
     padding-left: 30px;
     padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .content_text{
@@ -80,10 +97,11 @@ p{
     border-radius: 100%;
 }
 
+/* Unsure if it's correct to use negative numbers for anything*/
 .btn_container{
     position: absolute;
     right: 0px;
-    bottom: 0px;
+    bottom: -10px;
     margin: 0;
 }
 
@@ -95,7 +113,7 @@ p{
     margin: 0;
 }
 /* Some of the SVG's are not the right logo, and I know that it's not efficient to use SVG's in case a blind person
-goes through the website with a website reader*/
+goes through the website with a website reader. I also don't know how to remove the space between the SVG's*/
 .fb{
     background-color: #C6F3EA;
     fill: #33AB92;
@@ -153,4 +171,24 @@ goes through the website with a website reader*/
 .drib:hover{
     background-color: #E74C89;
     fill: #B2215A;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #323232;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact_box{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
