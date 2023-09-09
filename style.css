@@ -30,6 +30,10 @@ p{
     font-family: 'Lato', sans-serif;
 }
 
+strong{
+    color: #D9D9D9;
+}
+
 .light_green{
     color: #C6F3EA;
 }
@@ -49,9 +53,8 @@ p{
 .portfolio{
     width: 100%;
     height: 100%;
-    position: relative;
-    overflow: hidden;
-    background-color: pink;
+    background-color: fff;
+    text-align: center;
 }
 
 .about{
@@ -186,7 +189,7 @@ goes through the website with a website reader. I also don't know how to remove 
 .contact_box{
     width: 50%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 50px;
@@ -199,23 +202,26 @@ goes through the website with a website reader. I also don't know how to remove 
     border-style: solid;
 }
 
+.contact_text{
+    width: 100%;
+}
+
+/* I know that the correct answer is not to set the width for 90%, but I couldn't make it work otherwise. */
 .input{
-    width: 75%;
+    width: 90%;
     height: 30px;
     margin-top: 15px;
     background-color: #454545;
     color: #686868;
     border: none;
-    padding-left: 10px;
 }
 
 .text_box{
-    width: 75%;
+    width: 90%;
     margin-top: 15px;
     background-color: #454545;
     color: #DFDFDF;
     border: none;
-    padding-left: 10px;
     height: 130px;
 }
 
@@ -223,7 +229,7 @@ goes through the website with a website reader. I also don't know how to remove 
     font-size: 12px;
     line-height: 20px;
     font-family: 'Lato', sans-serif;
-
+    padding-left: 10px;
 }
 
 .input_btn{
@@ -234,10 +240,42 @@ goes through the website with a website reader. I also don't know how to remove 
     margin-top: 20px;
     border: none;
     float: right;
-    margin-right: 170px;
+    margin-right: 50px;
     background-color: #2EB298;
     color: #BEF0E6;
     cursor: pointer;
+}
+
+.contact_sm_text{
+    color: #9B9B9B;
+    width: 30%;
+    margin-left: -20px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0%;
+}
+
+.contact_icons{
+    fill: #2EB298;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.contact_icons:hover{
+    fill: #fff;
+}
+
+.icon_text{
+    font-size: 12px;
+    line-height: 0%;
+    font-family: 'Lato', sans-serif;
+    color: #9B9B9B;
+    text-decoration: none;
 }
 
 footer{
